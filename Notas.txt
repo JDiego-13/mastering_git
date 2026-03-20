@@ -1,3 +1,12 @@
+//Agregar
+- git add .
+
+//Confirmar add
+- git commit -m "Descripcion"
+
+//agregar al repo
+- git push -u origin main
+
 //Para ver las versiones pasadas es con:
 - git log
 
@@ -14,3 +23,32 @@ pasada del proyecto con el ID de quien lo subio.)
 
 //Para crear y estar dentro de la rama es con:
 - git checkout -b feature-branch
+
+//Flujo de trabajo
+1. Clonar el repositorio
+    git clone https://github.com/tu-usuario/tu-repo.git
+    cd tu-repo
+2. Crear una nueva rama desde el main en otra rama
+    git checkout main
+    git pull
+    git switch -c feature-mi-funcionalidad
+3. Haz tus cambios y agrega.
+    git add .
+    git commit -m "Agrego nueva funcionalidad"
+4. Envia la rama al repositorio 
+    git push -u origin feature-mi-funcionalidad
+5. Abre un pull request
+    (En GitHub)
+    Entras a tu repo
+    Click en "Compare & pull request"
+    Describes los cambios
+    Crear PR
+6. Fuciona los cambios 
+    (En GitHub)
+    Click en "Merge pull request"
+7. extrae los cambios fusionados a tu rama principal
+    git checkout main
+    git pull
+8. Repite desde el paso dos.
+
+//Es recomendable trabajar con ramas, no siempre desde el main.
