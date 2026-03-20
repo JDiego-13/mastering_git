@@ -1,0 +1,16 @@
+//Para ver las versiones pasadas es con:
+- git log
+
+// Para tener alguna version pasada del proyecto se utiliza:
+- git checkout (Id de version)
+(Importnate, no borra los cambios que se realizaron solo muestra una version 
+pasada del proyecto con el ID de quien lo subio.)
+
+//Para volver a la rama principal es con:
+- git checkout master
+
+//Para crear una rama:
+- git branch branch-name
+
+//Para crear y estar dentro de la rama es con:
+- git checkout -b feature-branch
