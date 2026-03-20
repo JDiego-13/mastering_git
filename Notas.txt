@@ -5,7 +5,7 @@
 - git commit -m "Descripcion"
 
 //agregar al repo
-- git push -u origin main
+- git push
 
 //Para ver las versiones pasadas es con:
 - git log
